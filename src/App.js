@@ -1,10 +1,17 @@
 
 import './App.css';
+import Navber from './Components/Home/Navber/Navber';
+
+import Profile from './Components/Home/Profile';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+     
+      <Navber></Navber>
+      <Profile></Profile>
+      
+      
     </div>
   );
 }
