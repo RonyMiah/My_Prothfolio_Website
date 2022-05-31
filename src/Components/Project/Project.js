@@ -39,10 +39,72 @@ const Project = () => {
                   <Card.Img
                     variant="top"
                     className="w-100 "
-                    src=" https://i.ibb.co/H2ZxK5S/remx-1.png"
+                    src=" https://i.ibb.co/WtFkTHh/one.png"
                   />
                 </Flip>
               </div>
+                    
+              <Card.Body>
+                <Fade left>
+                  <Card.Title>
+                    {" "}
+                    <h4 className="  my-2">
+                      Easy Rent Website
+                      <br />{" "}
+                      <a
+                        className="text-decoration-none"
+                        href="https://easyrent-85ae2.web.app"
+                      >
+                        {" "}
+                        Live Site{" "}
+                      </a>{" "}
+                    </h4>
+                  </Card.Title>
+                  <Card.Text>
+                    This is Car Rental Website . User Can Easyly search His/Her location and rent car easyly.
+                    This projects Full responsiveness for desktop and phone and Used Payment methode system.
+                  </Card.Text>
+                </Fade>
+                <Fade left>
+                  <Link to="/travel">
+                    <Button
+                      className="fw-bolder my-3"
+                      variant=""
+                      style={{ backgroundColor: "#8cff32", color: "black" }}
+                    >
+                      Project Details
+                    </Button>
+                  </Link>
+                </Fade>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12 card-responsive">
+            <Card
+              className="ps-2 mx-auto card-tablet-responsive"
+              style={{
+                width: "18rem",
+                height: "420px",
+                boxShadow: "5px 5px 10px",
+              }}
+            >
+              <div className="inner">
+                <Flip left>
+                  <Card.Img
+                    variant="top"
+                    className="w-100 "
+                    src=" https://i.ibb.co/cwPrQbj/dhaka-shop.png"
+                  />
+                </Flip>
+              </div>
+
+
+
+
+
+
+
               <Card.Body>
                 <Fade left>
                   <Card.Title>
@@ -152,60 +214,7 @@ const Project = () => {
                   />
                 </Flip>
               </div>
-              <Card.Body>
-                <Fade left>
-                  <Card.Title>
-                    {" "}
-                    <h4 className="  my-2">
-                      Travel Agency
-                      <br />{" "}
-                      <a
-                        className="text-decoration-none"
-                        href="https://ph-travel-1e00a.web.app/"
-                      >
-                        {" "}
-                        Live Site{" "}
-                      </a>{" "}
-                    </h4>
-                  </Card.Title>
-                  <Card.Text>
-                    Travel Website. This project developed by React,Firebase,
-                    Bootstrap, React Router, Node js, Express Js, MongoDb etc.
-                  </Card.Text>
-                </Fade>
-                <Fade left>
-                  <Link to="/travel">
-                    <Button
-                      className="fw-bolder my-3"
-                      variant=""
-                      style={{ backgroundColor: "#8cff32", color: "black" }}
-                    >
-                      Project Details
-                    </Button>
-                  </Link>
-                </Fade>
-              </Card.Body>
-            </Card>
-          </div>
-
-          <div className="col-lg-3 col-md-6 col-sm-12 card-responsive">
-            <Card
-              className="ps-2 mx-auto card-tablet-responsive"
-              style={{
-                width: "18rem",
-                height: "420px",
-                boxShadow: "5px 5px 10px",
-              }}
-            >
-              <div className="inner">
-                <Flip left>
-                  <Card.Img
-                    variant="top"
-                    className="w-100 "
-                    src=" https://i.ibb.co/cwPrQbj/dhaka-shop.png"
-                  />
-                </Flip>
-              </div>
+             
               <Card.Body>
                 <Slide right>
                   <Card.Title>
