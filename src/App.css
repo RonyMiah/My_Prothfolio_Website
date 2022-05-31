@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: auto;
 }
 
 .App-logo {
@@ -40,6 +41,8 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  margin:0;
+  margin:auto !important;
   padding: 0;
+  max-width: 1367px;
+  background-color: rgba(226, 226, 226, 0.267);
 }

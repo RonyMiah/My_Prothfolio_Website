@@ -1,21 +1,20 @@
 import React from "react";
-import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 import "./Profile.css";
 import Flip from "react-reveal/Flip";
 import Roll from "react-reveal/Roll";
 import Slide from "react-reveal/Slide";
 
-
 const Profile = () => {
   return (
-    <div>
+    <div id="home">
       <div
         className="profile-container py-3 pt-4 "
         style={{ backgroundColor: "#1C1333" }}
       >
         <div className="container ">
           <div className="row flex-column-reverse flex-lg-row">
-            <div className="col-md-7">
+            <div className="col-md-7 text-responsive">
               <div className="profile-parent">
                 <div className="profile-details">
                   <div className="colZ">
@@ -87,32 +86,35 @@ const Profile = () => {
                         </span>
                       </h1>
                     </span>
-                   
-                      <span className="text-light fs-5 ">
+
+                    <span className="text-light fs-5 ">
                       <Slide bottom>
                         Building Front-end React Application Project &
                         Responsive Design .
-                        </Slide>
-                      </span>
-                    
+                      </Slide>
+                    </span>
+
                     <div className="profile-options mt-4">
-                    <Roll right>
-                      <button
-                        className="btn btn rounded button-yellow"
-                        style={{ backgroundColor: "#FFA500" }}
-                      >
-                        {" "}
-                        <b>Hire Me</b>
-                      </button>
-                      </Roll>
-                      <a href="Resume.pdf" download="Rony Resume.pdf">
-                      <Roll left>
+                      <Roll right>
                         <button
-                          style={{ backgroundColor: "#8cff32" }}
-                          className="btn btn rounded ms-4 button-black fw-bolder"
+                          className="btn btn rounded button-yellow"
+                          style={{ backgroundColor: "#FFA500" }}
                         >
-                          Get Resume
+                          {" "}
+                          <b>
+                            {" "}
+                            <a href="#contact"> Hire Me</a>
+                          </b>
                         </button>
+                      </Roll>
+                      <a href="resume1.pdf" download="Rony Resume.pdf">
+                        <Roll left>
+                          <button
+                            style={{ backgroundColor: "#8cff32" }}
+                            className="btn btn rounded ms-4 button-black fw-bolder"
+                          >
+                            Get Resume
+                          </button>
                         </Roll>
                       </a>
                     </div>
@@ -120,7 +122,7 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5 ">
+            <div className="col-md-5 image-responsive ">
               <Roll top>
                 <div className="profile-picture">
                   <div className="profile-picture-background"></div>

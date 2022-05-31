@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import "./Navber.css";
 import Zoom from 'react-reveal/Zoom';
+import { Link } from "react-router-dom";
+import "./Navber.css";
 
 const Navber = () => {
   return (
@@ -11,7 +12,7 @@ const Navber = () => {
         collapseOnSelect
         expand="lg"
         variant="dark"
-        style={{ backgroundColor: "#1c1333" }}
+        style={{ backgroundColor: "#1c1333", maxWidth:'1367px' }}
       >
         
         <Container>
@@ -29,16 +30,19 @@ const Navber = () => {
               <Nav.Link to="">Home</Nav.Link>
               </Zoom>
               <Zoom right>
-              <Nav.Link href="#pricing">About Me</Nav.Link>
+              <Nav.Link href="#about">About Me</Nav.Link>
               </Zoom>
               <Zoom right>
-              <Nav.Link href="#sdfg">Resume</Nav.Link>
+              <Nav.Link href="#project">Project</Nav.Link>
               </Zoom>
               <Zoom right>
-              <Nav.Link href="#dsf">Blogs</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
               </Zoom>
               <Zoom right>
-              <Nav.Link href="#pridscing">ContactMe</Nav.Link>
+              <Link style={{color:'#9692a1'}} className="d-block mt-2 text-decoration-none blogs-text-style"  to="/blogs"> Blogs </Link>
+              </Zoom>
+              <Zoom right>
+              <Nav.Link href="#contact">ContactMe</Nav.Link>
               </Zoom>
             </Nav>
            

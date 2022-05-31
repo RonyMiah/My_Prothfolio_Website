@@ -17,6 +17,7 @@
   background-image: url(https://i.ibb.co/bWMs5m8/Untitled-design-2.jpg);
   box-shadow: -5px -5px 30px 5px rgba(255, 0, 0, 0.212),
     5px 5px 30px 5px rgba(0, 0, 255, 0.514);
+  
 }
 .profile-picture-background:hover {
   height: 100%;
@@ -37,11 +38,93 @@
 
 
 
+/* // Responsive 375 px screen  */
 
+@media only screen and (min-width: 280px )and (max-width: 360px ) {
+ 
+  .image-responsive{
+    width: 100%;
+  }
+ .profile-picture{
+   width: 100%;
+ }
+ .card-width-responsive{
+   padding: 0px !important;
+ }
+  .image-responsive{
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-@media only screen and (max-width: 962px) {
+  }
+  .font-responsive{
+    margin-top: 5px !important;
+  }
+  .card-responsive{
+    margin: 15px  0 15px 0;
+  }
+}
+
+/* Responsive 360px and 414px screen  */
+
+@media only screen and (min-width: 360px )and ( max-width: 414px) {
+  .image-responsive{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  .font-responsive{
+    margin-top: 5px !important;
+  }
+  .card-responsive{
+    margin: 15px  0 15px 0;
+  }
+}
+
+/* Responsive 912px screen  */
+
+@media only screen and (max-width: 912px) {
+  .image-responsive{
+    width: 100%;
+
+  }
   .profile-picture {
     margin: auto;
     flex-direction: column-reverse;
   }
+
+  .text-responsive{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .font-responsive{
+    margin-top: 5px !important;
+  }
+  .card-responsive{
+    margin: 15px  0 15px 0;
+  }
+}
+
+/* Responsive 1024 to 1280 px  */
+
+@media only screen and ( min-width: 1024px)  {
+  .profile-picture {
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+  .card-tablet-responsive{
+    width: 14rem !important;
+  }
+ 
+}
+
+@media only screen and ( min-width: 1280px)  {
+  .profile-picture {
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+  .card-tablet-responsive{
+    width: 18rem !important;
+  }
+ 
 }
