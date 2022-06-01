@@ -38,16 +38,16 @@ const Travel = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-6">
-              <a href="https://github.com/RonyMiah/PH-Travel-Client-Side">
+              <a href="https://github.com/RonyMiah/EasyRent-Client-side-team-poject">
                 {" "}
                 <i class="fa-brands fa-github fs-4 ">Client Side</i>
               </a>
-              <a href="https://github.com/RonyMiah/PH-Travel-Server-Side">
+              <a href="https://github.com/RonyMiah/EasyRent-Serverside-teamProject">
                 <i class="fa-brands fa-github fs-4 ms-5 ">Server Side</i>
               </a>
             </div>
             <div className="col-sm-12 col-md-6">
-              <a href="https://ph-travel-1e00a.web.app/">
+              <a href="https://easyrent-85ae2.web.app/">
                 <i class="fa-solid fa-bolt-lightning    ">Live Website</i>
               </a>
               <Button className="ms-5">
@@ -89,18 +89,18 @@ const Travel = () => {
       <SwiperSlide>
         <img
           className=""
-          src="https://i.ibb.co/V2pH1yq/Image-20.png"
+          src="https://i.ibb.co/0tZCwn7/one.png"
           alt="No Internet"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://i.ibb.co/C0cR3Vx/Image-19.png" alt="No Interne" />
+        <img src="https://i.ibb.co/x8Y8G6b/two.png" alt="No Interne" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://i.ibb.co/znVQB8v/Image-18.png" alt="No Interne" />
+        <img src="https://i.ibb.co/bQHscf0/three.png" alt="No Interne" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://i.ibb.co/L9chtDb/Image-17.png" alt="No Interne" />
+        <img src="https://i.ibb.co/cT3byv8/four.png" alt="No Interne" />
       </SwiperSlide>
     </Swiper>
   </div>
