@@ -110,7 +110,7 @@ const Project = () => {
                   <Card.Title>
                     {" "}
                     <h4 className="  my-2">
-                      Team Project
+                      Dhaka Shop
                       <br />{" "}
                       <a
                         className="text-decoration-none"
